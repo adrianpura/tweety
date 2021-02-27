@@ -8,7 +8,7 @@
       <change type="DELETED" beforePath="C:\wamp\www\tweety\public\css\app.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
+      <change type="MODIFICATION" beforePath="C:\wamp\www\tweety\resources\views\home.blade.php" afterPath="C:\wamp\www\tweety\resources\views\home.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/mix-manifest.json" afterPath="$PROJECT_DIR$/public/mix-manifest.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
@@ -37,39 +37,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <file leaf-file-name="show.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/profiles/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="33" selection-start="526" selection-end="526" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="442">
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_friends-list.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/_friends-list.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="25" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="306">
+            <state line="6" column="18" selection-start="164" selection-end="164" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/User.php">
+      <file leaf-file-name="TweetsController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TweetsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="5" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.6857143" vertical-offset="493" max-vertical-offset="1088">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2021_02_27_063603_create_follows_table.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2021_02_27_063603_create_follows_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="60" selection-start="519" selection-end="519" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="799">
+            <state line="17" column="32" selection-start="388" selection-end="388" vertical-scroll-proportion="0.45714286" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -93,20 +73,30 @@
         <option value="$PROJECT_DIR$/resources/css/main.css" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2021_02_26_183535_create_tweets_table.php" />
         <option value="$PROJECT_DIR$/database/factories/TweetFactory.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/resources/views/_tweet.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Tweet.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TweetsController.php" />
         <option value="$PROJECT_DIR$/resources/views/_publish_tweet-panel.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/_friends-list.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2021_02_27_063603_create_follows_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/Tweet.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" />
+        <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/_timeline.blade.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/resources/views/_tweet.blade.php" />
+        <option value="$PROJECT_DIR$/tailwind.config.js" />
+        <option value="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/_friends-list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/tweets/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profiles/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TweetsController.php" />
       </list>
     </option>
   </component>
@@ -198,6 +188,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tweets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweety" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweety" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweety" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweety" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -226,75 +260,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tweety" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tweety" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tweety" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tweety" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tweety" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tweety" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tweety" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tweety" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factories" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,6 +275,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Providers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,12 +328,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistory" value="user&#10;web&#10;twee&#10;homecontro&#10;home&#10;wel&#10;AppServiceProvider" />
+    <property name="SearchEverywhereHistory" value="Tweet&#10;user&#10;login&#10;re&#10;register.&#10;tailwind.con&#10;tailwind.co&#10;User&#10;twee&#10;routeSer&#10;Twee&#10;home&#10;web&#10;homecontro&#10;wel&#10;AppServiceProvider" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp\www\tweety\app\Http\Controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\tweety\resources\views\components" />
     </key>
   </component>
   <component name="RunManager">
@@ -445,7 +418,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="7" selection-start="248" selection-end="248" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="595">
           <folding>
-            <element signature="e#33#71#0" expanded="true" />
+            <element signature="e#33#71#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -487,20 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/_sidebar-links.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="5" selection-start="898" selection-end="898" vertical-scroll-proportion="-21.576923" vertical-offset="136" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="38" selection-start="720" selection-end="720" vertical-scroll-proportion="-9.153846" vertical-offset="153" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="40" selection-start="363" selection-end="392" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="663">
@@ -522,68 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="1" selection-start="342" selection-end="342" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="459">
-          <folding>
-            <element signature="e#40#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/_tweet.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="205" selection-end="205" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="49" selection-start="579" selection-end="579" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Tweet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TweetsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="28" selection-start="83" selection-end="83" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="442">
-          <folding>
-            <element signature="e#40#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/_publish_tweet-panel.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="58" selection-start="361" selection-end="361" vertical-scroll-proportion="-7.6923075" vertical-offset="4" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="33" selection-start="526" selection-end="526" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="442">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/_friends-list.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2021_02_27_063603_create_follows_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="60" selection-start="519" selection-end="519" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="799">
@@ -591,9 +488,141 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Tweet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1475" column="44" selection-start="38805" selection-end="38805" vertical-scroll-proportion="-1.3397212" vertical-offset="25606" max-vertical-offset="28016">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="447" selection-end="447" vertical-scroll-proportion="0.2369338" vertical-offset="153" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="37" selection-start="515" selection-end="515" vertical-scroll-proportion="-10.461538" vertical-offset="34" max-vertical-offset="646">
+          <folding>
+            <element signature="e#7#389#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="43" selection-start="127" selection-end="127" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="340">
+          <folding>
+            <element signature="e#40#53#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/_timeline.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="129" selection-end="129" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/facade/ignition/tailwind.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="23" selection-start="664" selection-end="665" vertical-scroll-proportion="0.33277312" vertical-offset="193" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tailwind.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="14" selection-start="3030" selection-end="3030" vertical-scroll-proportion="0.38991597" vertical-offset="1672" max-vertical-offset="14654">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/_tweet.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="12" selection-start="347" selection-end="347" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="10" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="55" selection-start="66" selection-end="66" vertical-scroll-proportion="0.030303031" vertical-offset="0" max-vertical-offset="1394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="20" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.41512606" vertical-offset="314" max-vertical-offset="952">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#main#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/_sidebar-links.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="9" selection-start="473" selection-end="473" vertical-scroll-proportion="0.22857143" vertical-offset="204" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/_publish_tweet-panel.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="23" selection-start="160" selection-end="160" vertical-scroll-proportion="0.114285715" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="5" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.6857143" vertical-offset="493" max-vertical-offset="1088">
+        <state line="49" column="41" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.41512606" vertical-offset="552" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tweets/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="10" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/_friends-list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="31" selection-start="129" selection-end="129" vertical-scroll-proportion="0.08571429" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profiles/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="164" selection-end="164" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TweetsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="32" selection-start="388" selection-end="388" vertical-scroll-proportion="0.45714286" vertical-offset="0" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
