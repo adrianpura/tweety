@@ -46,10 +46,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TweetsController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TweetsController.php">
+      <file leaf-file-name="register.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="32" selection-start="388" selection-end="388" vertical-scroll-proportion="0.45714286" vertical-offset="0" max-vertical-offset="595">
+            <state line="61" column="61" selection-start="3440" selection-end="3440" vertical-scroll-proportion="-10.461538" vertical-offset="765" max-vertical-offset="1394">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="123" selection-start="2998" selection-end="2998" vertical-scroll-proportion="-13.076923" vertical-offset="561" max-vertical-offset="1292">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/tweets/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="135" selection-end="135" vertical-scroll-proportion="0.17142858" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -89,14 +107,14 @@
         <option value="$PROJECT_DIR$/tailwind.config.js" />
         <option value="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/_friends-list.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/components/app.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/components/master.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/tweets/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/profiles/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TweetsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/tweets/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
       </list>
     </option>
   </component>
@@ -210,7 +228,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="profiles" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,7 +250,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,7 +346,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistory" value="Tweet&#10;user&#10;login&#10;re&#10;register.&#10;tailwind.con&#10;tailwind.co&#10;User&#10;twee&#10;routeSer&#10;Twee&#10;home&#10;web&#10;homecontro&#10;wel&#10;AppServiceProvider" />
+    <property name="SearchEverywhereHistory" value="logi&#10;re&#10;lo&#10;login&#10;Tweet&#10;user&#10;register.&#10;tailwind.con&#10;tailwind.co&#10;User&#10;twee&#10;routeSer&#10;Twee&#10;home&#10;web&#10;homecontro&#10;wel&#10;AppServiceProvider" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="RecentsManager">
@@ -365,7 +383,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.99038464" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -548,43 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/_tweet.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="347" selection-end="347" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="10" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="55" selection-start="66" selection-end="66" vertical-scroll-proportion="0.030303031" vertical-offset="0" max-vertical-offset="1394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="20" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.41512606" vertical-offset="314" max-vertical-offset="952">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#main#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/_sidebar-links.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="9" selection-start="473" selection-end="473" vertical-scroll-proportion="0.22857143" vertical-offset="204" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/_publish_tweet-panel.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="23" selection-start="160" selection-end="160" vertical-scroll-proportion="0.114285715" vertical-offset="0" max-vertical-offset="646">
@@ -599,16 +580,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/tweets/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/_friends-list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="10" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+        <state line="3" column="31" selection-start="129" selection-end="129" vertical-scroll-proportion="0.08571429" vertical-offset="0" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/_friends-list.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/components/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="129" selection-end="129" vertical-scroll-proportion="0.08571429" vertical-offset="0" max-vertical-offset="595">
+        <state line="10" column="31" selection-start="422" selection-end="422" vertical-scroll-proportion="0.29616725" vertical-offset="0" max-vertical-offset="574">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#main#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="36" selection-start="714" selection-end="714" vertical-scroll-proportion="0.51428574" vertical-offset="85" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="57" selection-start="267" selection-end="267" vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="1003">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#main#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/_sidebar-links.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="9" selection-start="246" selection-end="246" vertical-scroll-proportion="0.2857143" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TweetsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="261" selection-end="261" vertical-scroll-proportion="0.31428573" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/_tweet.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="9" selection-start="368" selection-end="368" vertical-scroll-proportion="0.31428573" vertical-offset="0" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
@@ -620,9 +640,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TweetsController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="388" selection-end="388" vertical-scroll-proportion="0.45714286" vertical-offset="0" max-vertical-offset="595">
+        <state line="61" column="61" selection-start="3440" selection-end="3440" vertical-scroll-proportion="-10.461538" vertical-offset="765" max-vertical-offset="1394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="123" selection-start="2998" selection-end="2998" vertical-scroll-proportion="-13.076923" vertical-offset="561" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tweets/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="135" selection-end="135" vertical-scroll-proportion="0.17142858" vertical-offset="0" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
