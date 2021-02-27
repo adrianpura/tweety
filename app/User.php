@@ -15,9 +15,9 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $fillable = [
-        'name', 'email', 'password',
-    ];
+//    protected $fillable = [
+//        'username', 'name', 'email', 'password',
+//    ];
 
     /**
      * The attributes that should be hidden for arrays.
@@ -57,12 +57,15 @@ class User extends Authenticatable
 
     public function getRouteKeyName()
     {
-        return 'name';
+        return 'username';
     }
 
-    public function path($append = ''){
-        $path =  route('profile',$this->name);
-        return $append ? "{$path}/{$append}" : $path;
+    public function path($append = '')
+    {
+//        $path = route('profile', $this->username);
+//        return $append ? "{$path}/{$append}" : $path;
+
+        return route('profile', $this->username);
     }
 
 }

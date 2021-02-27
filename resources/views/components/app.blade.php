@@ -2,6 +2,7 @@
     <section class="px-8">
         <main class="container mx-auto">
             <div class="flex lg:justify-between">
+                <? dd("wa");?>
                 @if(auth()->check())
                 <div class="lg:w-32">
                     @include('_sidebar-links')
