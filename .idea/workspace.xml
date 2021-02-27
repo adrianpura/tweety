@@ -67,7 +67,7 @@
       <file leaf-file-name="_publish_tweet-panel.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/_publish_tweet-panel.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="20" selection-start="249" selection-end="249" vertical-scroll-proportion="0.1579832" vertical-offset="25" max-vertical-offset="646">
+            <state line="35" column="6" selection-start="949" selection-end="949" vertical-scroll-proportion="0.92941177" vertical-offset="42" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -105,7 +105,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2021_02_26_183535_create_tweets_table.php" />
         <option value="$PROJECT_DIR$/database/factories/TweetFactory.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/_publish_tweet-panel.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2021_02_27_063603_create_follows_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/app/Tweet.php" />
@@ -141,6 +140,7 @@
         <option value="$PROJECT_DIR$/resources/views/components/panel.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/_friends-list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/_publish_tweet-panel.blade.php" />
       </list>
     </option>
   </component>
@@ -719,7 +719,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/_publish_tweet-panel.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="249" selection-end="249" vertical-scroll-proportion="0.1579832" vertical-offset="25" max-vertical-offset="646">
+        <state line="35" column="6" selection-start="949" selection-end="949" vertical-scroll-proportion="0.92941177" vertical-offset="42" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
