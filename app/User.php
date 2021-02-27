@@ -15,9 +15,9 @@ class User extends Authenticatable
      *
      * @var array
      */
-//    protected $fillable = [
-//        'username', 'name', 'email', 'password',
-//    ];
+    protected $fillable = [
+        'username', 'avatar', 'name', 'email', 'password',
+    ];
 
     /**
      * The attributes that should be hidden for arrays.
@@ -45,9 +45,20 @@ class User extends Authenticatable
             ->latest()->get();
     }
 
-    public function getAvatarAttribute()
+    public function getAvatarAttribute($value)
     {
-        return "https://i.pravatar.cc/200?u=" . $this->email;
+//        return asset('storage/' . $value);
+        if ($value) {
+            return asset('storage/' . $value);
+        } else {
+            return asset('images/default-avatar.jpeg');
+        }
+
+    }
+
+    public function setPasswordAttribute($value)
+    {
+        $this->attributes['password'] = bcrypt($value);
     }
 
     public function tweets()
@@ -55,17 +66,16 @@ class User extends Authenticatable
         return $this->hasMany(Tweet::class)->latest();
     }
 
-    public function getRouteKeyName()
-    {
-        return 'username';
-    }
+//    public function getRouteKeyName()
+//    {
+//        return 'username';
+//    }
 
     public function path($append = '')
     {
-//        $path = route('profile', $this->username);
-//        return $append ? "{$path}/{$append}" : $path;
-
-        return route('profile', $this->username);
+        $path = route('profile', $this->username);
+        return $append ? "{$path}/{$append}" : $path;
+//        return route('profile', $this->username);
     }
 
 }

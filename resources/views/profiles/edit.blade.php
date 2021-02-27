@@ -1,5 +1,5 @@
 @component('components.app')
-<form method="POST" action="{{ $user->path() }}" enctype="multipart/form-data">
+<form method="POST" action="{{$user->path()}}" enctype="multipart/form-data">
     @csrf
     @method('PATCH')
 
