@@ -58,17 +58,64 @@
       <file leaf-file-name="_friends-list.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/_friends-list.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="19" selection-start="751" selection-end="751" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="510">
+            <state line="20" column="14" selection-start="698" selection-end="698" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_publish_tweet-panel.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="master.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/components/master.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="19" selection-start="34" selection-end="35" vertical-scroll-proportion="-0.32692307" vertical-offset="0" max-vertical-offset="680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/components/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="82" selection-start="323" selection-end="323" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="442">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#main#0;n#section#0;n#x-master#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="45" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.5714286" vertical-offset="97" max-vertical-offset="697">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExploreController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ExploreController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="28" selection-start="157" selection-end="157" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="374">
+              <folding>
+                <element signature="e#40#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_publish_tweet-panel.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/_publish_tweet-panel.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="6" selection-start="949" selection-end="949" vertical-scroll-proportion="0.92941177" vertical-offset="42" max-vertical-offset="697">
-              <folding />
+            <state line="35" column="6" selection-start="949" selection-end="949" vertical-scroll-proportion="-21.26923" vertical-offset="42" max-vertical-offset="697">
+              <folding>
+                <marker date="1614455266756" expanded="true" signature="61:948" placeholder="..." />
+                <marker date="1614455266756" expanded="true" signature="103:847" placeholder="..." />
+                <marker date="1614455266756" expanded="true" signature="137:296" placeholder="..." />
+                <marker date="1614455266756" expanded="true" signature="383:835" placeholder="..." />
+                <marker date="1614455266756" expanded="true" signature="401:600" placeholder="..." />
+                <marker date="1614455266756" expanded="true" signature="622:817" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,7 +165,6 @@
         <option value="$PROJECT_DIR$/app/Policies/UserPolicy.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/components/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/_timeline.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/resources/views/profiles/show.blade.php" />
@@ -132,15 +178,16 @@
         <option value="$PROJECT_DIR$/app/Followable.php" />
         <option value="$PROJECT_DIR$/resources/views/explore.blade.php" />
         <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ExploreController.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/components/panel.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/_friends-list.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/_publish_tweet-panel.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/app.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ExploreController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -292,7 +339,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistory" value="login&#10;we&#10;edi&#10;User&#10;Prof&#10;ed&#10;show&#10;w&#10;Re&#10;handler&#10;handler.php&#10;USer&#10;Pro&#10;user&#10;Register&#10;regis&#10;ProfilesController&#10;p/show&#10;follo&#10;tw&#10;FollowsController&#10;profiles/sho&#10;web&#10;logi&#10;re&#10;lo&#10;Tweet&#10;register.&#10;tailwind.con&#10;tailwind.co&#10;twee&#10;routeSer&#10;Twee&#10;home&#10;homecontro&#10;wel&#10;AppServiceProvider" />
+    <property name="SearchEverywhereHistory" value="Expl&#10;we&#10;login&#10;edi&#10;User&#10;Prof&#10;ed&#10;show&#10;w&#10;Re&#10;handler&#10;handler.php&#10;USer&#10;Pro&#10;user&#10;Register&#10;regis&#10;ProfilesController&#10;p/show&#10;follo&#10;tw&#10;FollowsController&#10;profiles/sho&#10;web&#10;logi&#10;re&#10;lo&#10;Tweet&#10;register.&#10;tailwind.con&#10;tailwind.co&#10;twee&#10;routeSer&#10;Twee&#10;home&#10;homecontro&#10;wel&#10;AppServiceProvider" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="RecentsManager">
@@ -329,7 +376,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.99038464" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -512,20 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="14" selection-start="878" selection-end="878" vertical-scroll-proportion="-14.884615" vertical-offset="106" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="175" selection-end="175" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/_timeline.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="36" selection-start="154" selection-end="154" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="204">
@@ -654,13 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ExploreController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="53" selection-end="53" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="48" selection-start="902" selection-end="902" vertical-scroll-proportion="-8.192307" vertical-offset="467" max-vertical-offset="1445">
@@ -678,13 +704,6 @@
     <entry file="file://$PROJECT_DIR$/resources/views/components/follow-button.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="57" selection-start="92" selection-end="92" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="-1.3076923" vertical-offset="102" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
@@ -710,16 +729,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/_publish_tweet-panel.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="6" selection-start="949" selection-end="949" vertical-scroll-proportion="-21.26923" vertical-offset="42" max-vertical-offset="697">
+          <folding>
+            <marker date="1614455266756" expanded="true" signature="61:948" placeholder="..." />
+            <marker date="1614455266756" expanded="true" signature="103:847" placeholder="..." />
+            <marker date="1614455266756" expanded="true" signature="137:296" placeholder="..." />
+            <marker date="1614455266756" expanded="true" signature="383:835" placeholder="..." />
+            <marker date="1614455266756" expanded="true" signature="401:600" placeholder="..." />
+            <marker date="1614455266756" expanded="true" signature="622:817" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/_friends-list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="751" selection-end="751" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="510">
+        <state line="20" column="14" selection-start="698" selection-end="698" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/_publish_tweet-panel.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/components/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="6" selection-start="949" selection-end="949" vertical-scroll-proportion="0.92941177" vertical-offset="42" max-vertical-offset="697">
+        <state line="1" column="19" selection-start="34" selection-end="35" vertical-scroll-proportion="-0.32692307" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="82" selection-start="323" selection-end="323" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="442">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#main#0;n#section#0;n#x-master#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ExploreController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="157" selection-end="157" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="374">
+          <folding>
+            <element signature="e#40#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="45" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.5714286" vertical-offset="97" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
