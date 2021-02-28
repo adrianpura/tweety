@@ -42,7 +42,8 @@ class User extends Authenticatable
         $friends = $this->follows()->pluck('id');
         return Tweet::whereIn('user_id', $friends)
             ->orWhere('user_id', $this->id)
-            ->latest()->get();
+            ->withLikes()
+            ->latest()->paginate(50);
     }
 
     public function getAvatarAttribute($value)
@@ -76,6 +77,11 @@ class User extends Authenticatable
         $path = route('profile', $this->username);
         return $append ? "{$path}/{$append}" : $path;
 //        return route('profile', $this->username);
+    }
+
+    public function likes()
+    {
+        return $this->hasMany(Like::class);
     }
 
 }
